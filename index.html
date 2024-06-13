@@ -11,30 +11,17 @@
 	<script src="script.js"></script>
 
 	<link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.min.css">
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="shortcut icon" href="favicon (4).ico" type="image/x-icon">
 	<link rel="manifest" href="/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="theme-color" content="##030208">
 	
 </head>
 
 <body>
 	<nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color: #5753504d; padding: 15px;" style="display: flex;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="logo.png" alt="" width="60px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,10 +31,10 @@
           <a class="nav-link active" aria-current="page" href="#inicio" style=" color: aliceblue;">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#proj"style=" color: aliceblue;">Projetos</a>
+          <a class="nav-link" href="#proj"style=" color: aliceblue;">Dicas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#sobrenos" style=" color: aliceblue;">Sobre nós</a>
+          <a class="nav-link" href="#sobrenos" style=" color: aliceblue;">Quem Somos?</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#doacao" tabindex="-1" aria-disabled="true">Doações</a>
@@ -65,34 +52,41 @@
 	<main>
 		<section class="hero" id="inicio">
 
+			<div class="bola" id="bola0"></div>
+
 			<div class="box1" >
-				<h1>Bem-vindo!</h1>
-				<h3>A Assosciação Barbacenense <br> Protetora dos Animais</h3>
-				<h4>“Propagar o amor pelos animais e assegurar-lhes a proteção devida é uma obra de justiça que dignifica e merece todo o incitamento" - Clemenceau </h4>
-				<button class="btnNative"><a href="#doacao" style="text-decoration: none
-			;">Quero ajudar</a></button>
+				<h1>Cuidado!</h1>
+				<h3>Proteja-se online!</h3>
+				<h4>“A segurança digital é um compromisso constante com a prevenção e proteção de seus dados.”</h4>
+				<button class="btnNative"><a href="#proj" style="text-decoration: none;">Aumente sua proteção</a></button>
+				<img src="fotos/lock-solid1.svg" alt="" class="lock">
 			</div>
 		</section>
 
 		<section class="pag2">
+			<div class="bola"></div>
+			<div class="bola" id="bola2"></div>
 			<h2 class="titulo" id="proj">Dicas</h2>
 			<ul class="cards">
 				<li class="cards__item">
 					<div class="card">
-						<div class="card__image card__image--fence"></div>
-						<div class="card__content">
-							<div class="card__title">Uso de sites confiaveis</div>
-							<p class="card__text">O protocolo HTTPS oferece uma camada adicional de segurança ao navegar na web,
-								criptografando os dados transferidos entre o navegador e o servidor. Sites que utilizam HTTPS
-								proporcionam uma experiência mais segura, protegendo informações pessoais e financeiras dos
-								usuários.
-								 </p>
+						<a href="" class="noLab">
+							<div class="card__image card__image--fence"></div>
+							<div class="card__content">
+								<div class="card__title">Uso de sites confiaveis</div>
+								<p class="card__text">O protocolo HTTPS oferece uma camada adicional de segurança ao navegar na web,
+									criptografando os dados transferidos entre o navegador e o servidor. Sites que utilizam HTTPS
+									proporcionam uma experiência mais segura, protegendo informações pessoais e financeiras dos
+									usuários.
+									 </p>
 							
-						</div>
+							</div>
+						</a>
 					</div>
 				</li>
 				<li class="cards__item">
 					<div class="card">
+						<a href="" class="noLab">
 						<div class="card__image card__image--river"></div>
 						<div class="card__content">
 							<div class="card__title">Anti-vírus</div>
@@ -100,10 +94,12 @@
 								malware e outras ameaças cibernéticas. Eles identificam e removem programas maliciosos, mantendo
 								a segurança dos dados pessoais e a integridade do sistema operacional.</p>
 						</div>
+						</a>
 					</div>
 				</li>
 				<li class="cards__item">
 					<div class="card">
+						<a href="" class="noLab">
 						<div class="card__image card__image--record"></div>
 						<div class="card__content">
 							<div class="card__title">Uso de VPN</div>
@@ -112,10 +108,12 @@
 								interceptação e espionagem. Uma VPN também permite acessar conteúdo bloqueado geograficamente
 								de forma segura.</p>
 							</div>
+						</a>
 					</div>
 				</li>
 				<li class="cards__item">
 					<div class="card">
+						<a href="" class="noLab">
 						<div class="card__image card__image--flowers"></div>
 						<div class="card__content">
 							<div class="card__title">Segurança de Senhas</div>
@@ -123,6 +121,30 @@
 								autorizados. Senhas fortes e únicas dificultam a invasão por hackers e garantem a segurança
 								dos dados pessoais e financeiros armazenados nos diversos serviços online utilizados.</p>
 							</div>
+						</a>
+					</div>
+				</li>
+				<li class="cards__item">
+					<div class="card">
+						<a href="" class="noLab">
+						<div class="card__image card__image--2fa"></div>
+						<div class="card__content">
+							<div class="card__title">Autenticação multifator</div>
+							<p class="card__text"> Adiciona uma camada de proteção ao processo de entrada. Os usuários fornecem uma verificação de identidade adicional ao acessar contas ou aplicativos, como a leitura de uma impressão digital ou a adição de um código recebido por telefone, tornando mais dificil aos hackers o acesso.</p>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li class="cards__item">
+					<div class="card">
+						<a href="" class="noLab">
+						<div class="card__image card__image--fake"></div>
+						<div class="card__content">
+							<div class="card__title">Cheque endereços falsos</div>
+							<p class="card__text">Uma característica marcante deste tipo de fraude é conter, no corpo do e-mail, arquivos anexados ou links que direcionem você para um endereço suspeito.
+							Não clique sobre links e nem abra anexos!</p>
+							</div>
+						</a>
 					</div>
 				</li>
 			</ul>
@@ -131,43 +153,17 @@
 
 
 		<section class="pag3" id="sobrenos">
-			<h2 class="titulo" id="sobrenoss">Sobre nós</h2>
+			<h2 class="titulo" id="sobrenoss">Nosso objetivo</h2>
 			<main>
-				<section class="heros3">
-					<div class="nofx">
-						<p class="descricao2">Em 05 de agosto de 1991 um grupo de amigas que se sensibilizaram com o problema de animais de rua em Barbacena se uniram e fundaram a ABPA.
-							Uma entidade filantrópica, sem fins lucrativos, de proteção aos animais, cujos membros exercem suas funções sem remuneração. 
-							A ABPA se esforça pela propagação de suas ideias e princípios, em favor dos animais.
-							Alguns anos depois, em novembro 2014, foi iniciada a construção das baias. A Clinica também foi reformada ao longo do tempo, que previamente não era nada mais que somente uma casinha com os animais abandonados vivendo em seu entorno, sendo a proteção dos animais cercas de arame farpado e pedaços de madeira. A situação era precária, comiam fubá com restos de carne que eram doados pelo açougue, muitas das vezes estavam doentes e também, os animais não eram castrados. Mas pelo menos estavam seguros, e puderam escapar da “carrocinha”.
-							A nossa Diretoria é eleita bienalmente, em assembléia geral, sendo composta por 10 membros.
+				<section class="heros3">			
+						<p class="descricao2">
+							A segurança online é uma preocupação crescente em nossa sociedade digital. Neste projeto, buscamos fornecer informações úteis e estratégias eficazes para ajudá-lo a navegar pela internet de forma segura. Esperamos que os recursos disponíveis em nosso site sejam uma ferramenta valiosa para protegê-lo contra golpes virtuais e ameaças à sua cibersegurança. Lembre-se de que, ao manter-se informado e tomar precauções, você pode minimizar os riscos e desfrutar de uma experiência online mais segura e tranquila. Se tiver alguma dúvida ou precisar de mais orientações, não hesite em entrar em contato conosco. Estamos aqui para ajudá-lo!
 
 				</section>
 			</main>
 
 
-			<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="/fotos/fotos abpa (561).jpeg" class="d-block w-100" alt="...">
-					</div>
-					<div class="carousel-item">
-						<img src="/fotos/fotos abpa (571).jpeg" class="d-block w-100" alt="...">
-					</div>
-					<div class="carousel-item">
-						<img src="/fotos/fotos abpa (575).jpeg" class="d-block w-100" alt="...">
-					</div>
-				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-					data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Antes</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-					data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Depois</span>
-				</button>
-			</div>
+		
 
 		</section>
 
@@ -258,8 +254,8 @@
 					<div class="loc">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1859.3523544795546!2d-43.785041792223005!3d-21.243555058858828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa21ff85811d381%3A0xf406ff2ef6590748!2sAssocia%C3%A7%C3%A3o%20Barbacenense%20de%20Prote%C3%A7%C3%A3o%20aos%20Animais%20-%20Canil!5e0!3m2!1spt-BR!2sbr!4v1687741208252!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
-		</section>
-		<footer> -->
+		</section>-->
+		<footer> 
 			<p>Copyright ©
 				<script>document.write(new Date().getFullYear());</script> ABPA. Todos os direitos reservados.
 			</p>
